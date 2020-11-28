@@ -4,13 +4,8 @@ import SearchBar from './Components/SearchBar';
 import Footer from './Components/UI/Footer';
 import Header from './Components/UI/Header';
 
-import AppRouter from './Routers/AppRouter';
-
 
 function App() {
-
- 
-
 
   return (
     <>
