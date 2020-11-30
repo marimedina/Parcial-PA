@@ -11,6 +11,9 @@ const Conferences = ({
     
 }) => {
 
+
+
+
     
 
     return (
@@ -19,7 +22,7 @@ const Conferences = ({
                     <div className='card'>
                         <div className="card-content">
                             <span className='card-title'>{title}</span>
-                            <h6>Descripcion: {description}</h6>
+                            <h6>{description}</h6>
                             <h6>Orador: {speaker}</h6>
                             <h6>Tema: {tag}</h6>
                             <h6>Fecha y hora:</h6>

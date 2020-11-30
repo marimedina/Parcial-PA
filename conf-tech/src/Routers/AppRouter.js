@@ -12,7 +12,7 @@ import Header from '../Components/UI/Header';
 const AppRouter = () => {
     return (
         <>
-            <Header titulo="Conf-Tech"/>
+            <Header titulo="CONFERENCE TECH"/>
             <Router>
                 <Switch>
                     <Route exact path ="/" component={ListConference}></Route>
