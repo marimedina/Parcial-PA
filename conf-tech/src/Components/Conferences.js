@@ -12,7 +12,9 @@ const Conferences = ({
 }) => {
 
 
-
+    const time = datetime*1000;
+    const date = new Date(time)
+    const dateTime = date.toLocaleString()
 
     
 
@@ -23,12 +25,12 @@ const Conferences = ({
                         <div className="card-content">
                             <span className='card-title'>{title}</span>
                             <h6>{description}</h6>
-                            <h6>Orador: {speaker}</h6>
-                            <h6>Tema: {tag}</h6>
-                            <h6>Fecha y hora:</h6>
+                            <h6>ORADOR: {speaker}</h6>
+                            <h6>TEMA: {tag}</h6>
+                            <h6>FECHA Y HORA: {dateTime}hs</h6>
                         </div>
                         <div className="card-action">
-                        <Link to={`/${speaker}`}>Ver informacion del orador</Link>
+                        <Link to={`/${speaker}`} className='blue-text'>Ver informacion del orador</Link>
                         </div>
                     </div>
                 </div>

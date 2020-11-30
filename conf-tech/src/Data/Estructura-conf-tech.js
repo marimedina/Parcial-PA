@@ -120,7 +120,7 @@ export const   speaker = [ {
  {
      'biography' : 'Mario Valle es uno de los mexicanos más prominentes de Silicon Valley. Fue pionero de la industria de videojuegos en América Latina y por 11 años fue ejecutivo de la gigante Electronic Arts.\u2028¿Por qué, entonces, dejarlo todo para lanzarse a ser inversionista?\u2028Mario (donante y fan #terco de la primera hora) nos cuenta que estaba cómodo y contento en EA. Pero la oportunidad que vio de invertir en videojuegos de creadores independientes en Asia, Europa, América Latina y hasta África le pareció demasiado grande para dejarla pasar.\u2028Lanzó Altered Ventures, un fondo que invierte como si fuera una productora de Hollywood: Le mete dinero a los proyectos, los videojuegos, y no a las empresas. Por lo tanto, no les pide a los desarrolladores que le cedan un porcentaje de propiedad de sus compañías, lo que –dice– en regiones como América Latina lleva a abusos de parte de los inversionistas. Mario tiene 36 millones de dólares para invertir en nuevos títulos y parte de su trabajo para lanzar el fondo fue viajar por el mundo jugando videojuegos para conocer qué es lo que viene. Ya invirtió en un juego innovador hecho en Noruega (que se lanza el 21 de junio en Nintendo Switch) y pronto vienen más.',
      'category' : 3,
-     'image' : 'https://pbs.twimg.com/profile_images/1177427481831194625/MGmAHgel_400x400.jpg',
+     'image' : 'https://pbs.twimg.com/profile_images/1177427481831194625/MGmAHgel_300x300.jpg',
      'jobtitle' : 'Angel Investor & Co-founder',
      'name' : 'Mario Valle',
      'twitter' : 'bilbeny',

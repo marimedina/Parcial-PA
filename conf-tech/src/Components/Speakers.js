@@ -10,7 +10,7 @@ const Spearkers = (props) => {
     const {speaker} = useParams();
 
     const speakerData = getSpeakerByName(speaker)
-    console.log(speakerData);
+    
 
     const {
         biography,
@@ -28,16 +28,16 @@ const Spearkers = (props) => {
             <div className='col s4 m5 l7'>
                 <div className='card horizontal'>
                     <div className='card-image'>
-                        <img src={image}></img>
+                        <img src={image} className='center-align'></img>
                     </div>
                     <div className='container'>
-                        <div className='card-stacked'>
+                        <div className='card-stacked center'>
                             <h4>{name}</h4>
                             <h6>{biography}</h6>
-                            <h6>Titulo: {jobtitle}</h6>
-                            <h6>Lugar de trabajo: {workplace}</h6>
-                            <h6>Categoria: {category}</h6>
-                            <h6>Twitter: {twitter}</h6>
+                            <h6>TITULO: {jobtitle}</h6>
+                            <h6>LUGAR DE TRABAJO: {workplace}</h6>
+                            <h6>CATEGORIA: {category}</h6>
+                            <h6>TWITTER: {twitter}</h6>
                         </div>
                     </div>
 

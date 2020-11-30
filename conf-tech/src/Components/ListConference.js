@@ -4,7 +4,7 @@ import {conference} from '../Data/Estructura-conf-tech';
 
 
 const ListConference = () => {
-    console.log(conference);
+    
     return (
         <div className='card-columns'>
             {conference && conference.map(conf => (
